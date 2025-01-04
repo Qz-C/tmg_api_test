@@ -1,0 +1,29 @@
+{
+  "name": "tmg_api_test",
+  "version": "1.0.0",
+  "description": "TMG Hiring test",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "http-status-codes": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  }
+}
